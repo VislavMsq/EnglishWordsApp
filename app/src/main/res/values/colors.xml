@@ -2,4 +2,8 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="dark">#1e1e1e</color>
+    <color name="textVariantsColor">#888992</color>
+    <color name="backgraund_nummer">#888992</color>
+    <color name="buttonBlueColor">#2574FF</color>
 </resources>

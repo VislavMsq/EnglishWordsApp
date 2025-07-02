@@ -18,7 +18,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/titleText"
+        android:id="@+id/tvQuestionWord"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
@@ -41,7 +41,7 @@
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/titleText">
+        app:layout_constraintTop_toBottomOf="@id/tvQuestionWord">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -57,15 +57,14 @@
                 android:background="@drawable/shape_rounded_variants"
                 android:gravity="center"
                 android:text="1"
-                android:textColor="#888992"
-                android:fontFamily="@font/rubik_regular"
-                android:textSize="16sp" />
+                style="@style/NummerViewVariantStyle"/>
+
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
-                android:fontFamily="@font/rubik_regular"
+                style="@style/TextViewVariantsStyle"
                 android:text="Сломать"
                 tools:ignore="HardcodedText" />
 
@@ -86,15 +85,15 @@
                 android:background="@drawable/shape_rounded_variants"
                 android:gravity="center"
                 android:text="2"
-                android:textColor="#888992"
-                android:fontFamily="@font/rubik_regular"
-                android:textSize="16dp" />
+                style="@style/NummerViewVariantStyle"/>
+
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
-                android:fontFamily="@font/rubik_regular"
+                style="@style/TextViewVariantsStyle"
+
                 android:text="Сон"
                 tools:ignore="HardcodedText" />
 
@@ -115,15 +114,14 @@
                 android:background="@drawable/shape_rounded_variants"
                 android:gravity="center"
                 android:text="3"
-                android:textColor="#888992"
-                android:fontFamily="@font/rubik_regular"
-                android:textSize="16dp" />
+                style="@style/NummerViewVariantStyle"/>
+
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
-                android:fontFamily="@font/rubik_regular"
+                style="@style/TextViewVariantsStyle"
                 android:text="Галактика"
                 tools:ignore="HardcodedText" />
 
@@ -144,15 +142,13 @@
                 android:background="@drawable/shape_rounded_variants"
                 android:gravity="center"
                 android:text="4"
-                android:textColor="#888992"
-                android:fontFamily="@font/rubik_regular"
-                android:textSize="16dp" />
+                style="@style/NummerViewVariantStyle"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
-                android:fontFamily="@font/rubik_regular"
+                style="@style/TextViewVariantsStyle"
                 android:text="Утюг"
                 tools:ignore="HardcodedText" />
 
@@ -163,7 +159,7 @@
     <Button
         android:layout_width="310dp"
         android:layout_height="58dp"
-        android:backgroundTint="#2574FF"
+        android:backgroundTint="@color/buttonBlueColor"
         android:text="@string/button_skip"
         android:textAllCaps="true"
         android:layout_marginBottom="24dp"
